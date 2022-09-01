@@ -1,0 +1,358 @@
+:root {
+    --hover-color: rgba(60,64,67,.08);
+    --main-color: #5f6368;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .container .links {
+    margin-right: 50px;
+}
+
+.header .container .links a {
+    text-decoration: none;
+    color: var(--main-color);
+    height: fit-content;
+    padding-right: 10px;
+}
+
+.header .container .links a:hover {
+    text-decoration: underline;
+}
+
+.header .container .ol {
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.header .container .ol .i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.header .container .ol .links-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 9px;
+    cursor: auto;
+}
+
+.header .container .ol .links-bar li {
+    width: 90px;
+    height: 100px;
+}
+
+
+.header .container .ol .links-bar li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container .ol .links-bar li a:hover {
+    background-color: #2962ff1f;
+
+}
+
+.header .container .ol .links-bar i {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.header .container .ol ul {
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 0;
+    width: 340px;
+    height: 448px;
+    position: absolute;
+    overflow-y: auto;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 12px;
+}
+
+.header .container .ol .i::before {
+    font-family: "font Awesome 5 Free";
+    content: "\f828";
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.header .container .i:hover  {
+    background-color: var(--hover-color);
+}
+
+
+
+
+
+.body {
+    height: 80vh;
+    padding: 30px;
+    position: relative;
+}
+.body .container {
+    margin-top: 50px;
+    height: 255px;
+}
+.body .container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+.body .container h1 {
+    word-spacing: -26px;
+    font-size: 80px;
+}
+.g {
+    color: blue;
+}
+.o1 {
+    color: red;
+}
+.o2 {
+    color: orange;
+}
+.l {
+    color: green;
+}
+.e {
+    color: red;
+}
+.body .container .input {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    position: relative;
+}
+.body .container .input .i {
+    position: relative;
+    left: 38px;
+    bottom: 0;
+    width: 20px;
+}
+.body .container .input .i i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.body .container .input input {
+    width: 561px;
+    height: 100%;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 53px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.body .container input:focus {
+    filter: drop-shadow(2px 4px 6px black);
+    transition: 0.3s;
+}
+ input::placeholder {
+    font-size: 17px;
+}
+.body .mostVisited {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+body .mostVisited .y {
+    width: 112px;
+    height: 112px;
+    text-decoration: none;
+}
+.body .mostVisited .links-1  {
+    display: grid;
+    width: inherit;
+    height: inherit;
+}
+.body .mostVisited .links-1:hover {
+    background-color: #eee;
+} 
+.body .mostVisited .links-1 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 40px;
+}
+.body .mostVisited .links-1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+body .mostVisited .g {
+    width: 112px;
+    height: 112px;
+    text-decoration: none;
+}
+.body .mostVisited .links-2  {
+    display: grid;
+    width: inherit;
+    height: inherit;
+}
+.body .mostVisited .links-2:hover {
+    background-color: #eee;
+} 
+.body .mostVisited .links-2 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(160, 37, 109);;
+    font-size: 40px;
+}
+.body .mostVisited .links-2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+body .mostVisited .f {
+    width: 112px;
+    height: 112px;
+    text-decoration: none;
+}
+.body .mostVisited .links-3  {
+    display: grid;
+    width: inherit;
+    height: inherit;
+}
+.body .mostVisited .links-3:hover {
+    background-color: #eee;
+} 
+.body .mostVisited .links-3 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 40px;
+}
+.body .mostVisited .links-3 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+body .mostVisited .t {
+    width: 112px;
+    height: 112px;
+    text-decoration: none;
+}
+.body .mostVisited .links-4  {
+    display: grid;
+    width: inherit;
+    height: inherit;
+}
+.body .mostVisited .links-4:hover {
+    background-color: #eee;
+} 
+.body .mostVisited .links-4 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(16, 125, 189, 0.637);
+    font-size: 40px;
+}
+.body .mostVisited .links-4 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+body .mostVisited .i {
+    width: 112px;
+    height: 112px;
+    text-decoration: none;
+}
+.body .mostVisited .links-5  {
+    display: grid;
+    width: inherit;
+    height: inherit;
+}
+.body .mostVisited .links-5:hover {
+    background-color: #eee;
+} 
+.body .mostVisited .links-5 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 40px;
+}
+.body .mostVisited .links-5 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+body .mostVisited .y {
+    width: 112px;
+    height: 112px;
+    text-decoration: none;
+}
+.body .mostVisited .links-6  {
+    display: grid;
+    width: inherit;
+    height: inherit;
+}
+.body .mostVisited .links-6:hover {
+    background-color: #eee;
+} 
+.body .mostVisited .links-6 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #188fff;
+    font-size: 40px;
+}
+.body .mostVisited .links-6 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
