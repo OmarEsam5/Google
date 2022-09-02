@@ -83,7 +83,7 @@ body {
 
 .header .container .ol .links-bar li a:hover {
     background-color: #2962ff1f;
-
+    border-radius: 15px;
 }
 
 .header .container .ol .links-bar i {
