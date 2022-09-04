@@ -206,6 +206,7 @@ body .mostVisited .y {
 }
 .body .mostVisited .links-1:hover {
     background-color: #eee;
+    border-radius: 15px;
 } 
 .body .mostVisited .links-1 i {
     display: flex;
@@ -233,6 +234,7 @@ body .mostVisited .g {
 }
 .body .mostVisited .links-2:hover {
     background-color: #eee;
+    border-radius: 15px;
 } 
 .body .mostVisited .links-2 i {
     display: flex;
@@ -260,6 +262,7 @@ body .mostVisited .f {
 }
 .body .mostVisited .links-3:hover {
     background-color: #eee;
+    border-radius: 15px;
 } 
 .body .mostVisited .links-3 i {
     display: flex;
@@ -287,6 +290,7 @@ body .mostVisited .t {
 }
 .body .mostVisited .links-4:hover {
     background-color: #eee;
+    border-radius: 15px;
 } 
 .body .mostVisited .links-4 i {
     display: flex;
@@ -314,6 +318,7 @@ body .mostVisited .i {
 }
 .body .mostVisited .links-5:hover {
     background-color: #eee;
+    border-radius: 15px;
 } 
 .body .mostVisited .links-5 i {
     display: flex;
@@ -341,6 +346,7 @@ body .mostVisited .y {
 }
 .body .mostVisited .links-6:hover {
     background-color: #eee;
+    border-radius: 15px;
 } 
 .body .mostVisited .links-6 i {
     display: flex;
