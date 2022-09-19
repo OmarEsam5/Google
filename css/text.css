@@ -91,7 +91,7 @@ body {
     margin-bottom: 20px;
 }
 
-.header .container .ol ul {
+.header .container .ol .ul-links {
     margin-top: 50px;
     list-style-type: none;
     padding: 0;
@@ -101,6 +101,10 @@ body {
     overflow-y: auto;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: 12px;
+    display: none;
+}
+.header .container .ol ul.open {
+    display: block;
 }
 
 .header .container .ol .i::before {
@@ -114,11 +118,9 @@ body {
 .header .container .i:hover  {
     background-color: var(--hover-color);
 }
-
-
-
-
-
+.header .container .i.back {
+    background-color: var(--hover-color);
+}
 .body {
     height: 80vh;
     padding: 30px;
